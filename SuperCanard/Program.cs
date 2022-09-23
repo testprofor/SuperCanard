@@ -30,6 +30,7 @@
 //c.Tirer(canard);
 
 using SuperCanard;
+using SuperCanard.Canard;
 
 ComportementFactory factory = new();
 
@@ -48,5 +49,13 @@ Console.Write($"GetCanCanCoin =>");  factory.GetCanCanCoin().Cancaner();
 Console.WriteLine(factory.GetCoin() == factory.GetCoin());
 Console.WriteLine(factory.GetCan() == factory.GetCan());
 Console.WriteLine(factory.GetAltCanCoin() == factory.GetAltCanCoin());
+
+ICanard ligne = new CanardLigne(new Colvert());
+ligne.EffectuerVol();
+ligne.EffectuerCancan();
+
+ICanard bavard = new CanardBavard(new Colvert());
+bavard.EffectuerVol();
+bavard.EffectuerCancan();
 
 

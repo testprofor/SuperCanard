@@ -22,17 +22,17 @@ namespace SuperCanard.Canard
 
         public void EffectuerCancan()
         {
-            Console.Write("Je suis un");
+            Console.Write("Je suis un :");
             _c.Afficher();
-            Console.Write("Mon cris est");
+            Console.Write("Mon cris est :");
             _c.EffectuerCancan();
         }
 
         public void EffectuerVol()
         {
-            Console.Write("Je suis un");
+            Console.Write("Je suis un :");
             _c.Afficher();
-            Console.Write("Et je vole de cette manière");
+            Console.Write("Et je vole de cette manière :");
             _c.EffectuerCancan();
         }
     }
