@@ -8,7 +8,7 @@ namespace SuperCanard.Canard
 {
     public class CanardBavard : ICanard
     {
-        ICanard _c;
+        private ICanard _c;
 
         public CanardBavard(ICanard c)
         {
