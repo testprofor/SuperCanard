@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SuperCanard
+namespace SuperCanard.Factory
 {
     public class ComportementFactory
     {

@@ -29,8 +29,8 @@
 //IAnimal canard = new CanardAnimal(new Colvert());
 //c.Tirer(canard);
 
-using SuperCanard;
 using SuperCanard.Canard;
+using SuperCanard.Factory;
 
 ComportementFactory factory = new();
 
